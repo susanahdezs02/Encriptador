@@ -2,16 +2,16 @@ function encriptarTexto() {
     let texto = document.getElementById('inputTexto').value;
     let textoEncriptado = encriptar(texto);
     document.getElementById('mensajeEncriptado').innerText = textoEncriptado;
-    document.getElementById('inputTexto').value = ''; // Limpia la caja de texto
-    document.getElementById('p').innerText='';// Limpia la caja de texto
+    document.getElementById('inputTexto').value = ''; 
+    document.getElementById('p').innerText='';
 }
 
 function desencriptarTexto() {
     let texto = document.getElementById('inputTexto').value;
     let textoDesencriptado = desencriptar(texto);
     document.getElementById('mensajeEncriptado').innerText = textoDesencriptado;
-    document.getElementById('inputTexto').value = ''; // Limpia la caja de texto
-    document.getElementById('p').innerText='';// Limpia la caja de texto
+    document.getElementById('inputTexto').value = ''; 
+    document.getElementById('p').innerText='';
 }
 
 function encriptar(texto) {
