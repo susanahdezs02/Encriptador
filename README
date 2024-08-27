@@ -1,0 +1,7 @@
+Encriptador de texto con "llaves" de encriptación. 
+Las "llaves" de encriptación que utilizaremos son las siguientes: 
+La letra "e" es convertida a "enter". 
+La letra "i" a "imes". 
+La letra "a" a "ai". 
+La letra "o" a "ober". 
+La letra "u" a "ufat".
