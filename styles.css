@@ -13,25 +13,25 @@ body, html {
 
 .contenedor-flex {
     display: flex;
-    gap: 10px; /*Espacio entre las cajas*/
+    gap: 10px;
 }
 
 .contenedor-flex {
     display: flex;
     flex-direction: row; 
     align-items: start; 
-    gap: 20px; /*Espacio entre las cajas*/
+    gap: 20px;
 }
 
 .caja-texto, .caja-adicional {
-    flex: 1; /*Elementos con espacio proporcional en el contenedor*/
+    flex: 1; 
 }
 
 .caja-texto {
     flex: 2; 
     display: flex;
-    flex-direction: column; /*botones debajo del textarea */
-    gap: 10px; /* Espacio entre el textarea y los botones */
+    flex-direction: column; 
+    gap: 10px; 
     background-color: #f0f0f0; 
     padding: 10px; 
     border-radius: 8px;
@@ -86,7 +86,7 @@ textarea {
 }
 
 
-/* Media Queries Responsividad */
+/* Responsividad */
 @media (max-width: 768px) {
     .contenedor-flex {
         flex-direction: column;
@@ -98,7 +98,7 @@ textarea {
     }
 
     .caja-adicional {
-        order: -1; /* Caja arriba */
+        order: -1; 
     }
 }
 
